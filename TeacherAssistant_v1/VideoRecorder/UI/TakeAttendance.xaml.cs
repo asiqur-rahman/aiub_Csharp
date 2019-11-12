@@ -21,6 +21,13 @@ using System.IO;
 using AForge.Video.DirectShow;
 using ZXing;
 
+//Install-Package Barcode
+//Install-Package AForge
+//Install-Package AForge.Video
+//Install-Package AForge.Video.DirectShow
+//Install-Package ZXing.Net -Version 0.16.5
+//Install-Package BarCode -Version 4.0.2.2
+
 namespace VideoRecorder.UI
 {
     /// <summary>
