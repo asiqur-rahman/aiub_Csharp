@@ -1,0 +1,30 @@
+﻿<Window x:Class="TeacherAssistant_v1.UI.TakeAttendance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeacherAssistant_v1.UI"
+        mc:Ignorable="d"
+        Loaded="OnLoad"
+        Title="Take Attendance" Height="700" Width="1000">
+    <Border Background="White">
+    <StackPanel Margin="5" Background="Gray">
+            <Grid>
+                <Label Content="Open camera" Foreground="White" FontSize="20" Margin="60 10"></Label>
+                <ComboBox Name="cameraComboBox"  Foreground="White" Margin="200 8" FontSize="20"></ComboBox>
+            </Grid>
+            <Grid>
+                <Image Name="pictureBox" Height="400" Width="400" HorizontalAlignment="Left" Margin="30 10"></Image>
+                <RichTextBox Name="richTextBox" Height="500" Width="400" HorizontalAlignment="Right" Margin="30 10"></RichTextBox>
+            </Grid>
+            <UniformGrid Rows="1" Columns="3" Margin="0 20">
+                <Grid Margin="40 0">
+                    <Label Content="Today is day " Foreground="White" FontSize="20"></Label>
+                    <TextBox Name="dayTextBox" HorizontalAlignment="Right" FontSize="30" Width="50"></TextBox>
+                </Grid>
+                <Button Name="detectButton" Content="Detect" FontSize="25"  Margin="50 0" Click="detectButton_Click"></Button>
+                <Button Name="scanButton" Content="Scan" FontSize="25"  Margin="50 0" Click="scanButton_Click"></Button>
+            </UniformGrid>
+    </StackPanel>
+    </Border>
+</Window>
