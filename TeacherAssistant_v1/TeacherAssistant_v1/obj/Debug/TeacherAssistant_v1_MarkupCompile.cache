@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mdash\OneDrive\Desktop\Class Project\TeacherAssistant_v1\TeacherAssistant_v1\obj\Debug\
+C:\Users\mdash\OneDrive\Desktop\aiub_Csharp\TeacherAssistant_v1\TeacherAssistant_v1\obj\Debug\
 TeacherAssistant_v1
 none
 false
 DEBUG;TRACE
-C:\Users\mdash\OneDrive\Desktop\Class Project\TeacherAssistant_v1\TeacherAssistant_v1\App.xaml
+C:\Users\mdash\OneDrive\Desktop\aiub_Csharp\TeacherAssistant_v1\TeacherAssistant_v1\App.xaml
 32094896757
 
-10-1918268711
-21672608971
+11-1794198130
+21-717467958
 MainWindow.xaml;UI\Login.xaml;UI\TakeAttendance.xaml;
 
-False
+True
 

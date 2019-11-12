@@ -1,0 +1,23 @@
+﻿<Window x:Class="VideoRecorder.UI.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideoRecorder.UI"
+        mc:Ignorable="d"
+        Title="Login" Height="370" Width="300">
+    <Border Background="Black" CornerRadius="15" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
+            <Separator></Separator>
+            <Label Content="User ID" Foreground="White" FontSize="15" HorizontalAlignment="Center"></Label>
+            <TextBox Name="userID" Background="White" FontSize="15" Margin="10 0"></TextBox>
+            <TextBox Name="userIDMsg"  BorderBrush="Transparent" Margin="0 5" Foreground="Red" Background="Black" FontSize="10" HorizontalAlignment="Center"></TextBox>
+            <Label Content="Password" Foreground="White" FontSize="15" HorizontalAlignment="Center"></Label>
+            <PasswordBox Name="password" Background="White" FontSize="15" Margin="10 0"></PasswordBox>
+            <TextBox Name="passwordMsg"  BorderBrush="Transparent" Margin="0 5" Foreground="Red" Background="Black" FontSize="10" HorizontalAlignment="Center"></TextBox>
+            <Button Name="submitButton" Click="submitButton_Click" Content="Submit"  Background="#545d6a" Margin="60 0" Foreground="White" FontSize="13"></Button>
+            <TextBox x:Name="msg"  BorderBrush="Transparent" Margin="0 10" Foreground="Red" Background="Black" FontSize="10" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Window>
